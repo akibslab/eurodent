@@ -23,12 +23,57 @@ img {
     vertical-align: middle;
 }
 
+.testimonial-style-1 {
+    max-width: 457px;
+    padding: 40px 42px 47px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    position: relative;
+}
+
+.testimonial-style-1 .quote-icon {
+    position: absolute;
+    top: -43px;
+    right: 60px;
+}
+
+.testimonial-style-1 .five-starts-icon {
+    margin-bottom: 27px;
+}
+
+.testimonial-style-1 p {
+    font-style: italic;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 26px;
+}
+
+.testimonial-style-1 .name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.testimonial-style-1 .date {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    display: block;
+    color: #65A08C;
+}
+
 
 /* Typograpgy */
 body {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
+}
+
+p {
     line-height: 35px;
 }
 
@@ -56,7 +101,7 @@ h1 strong {
 }
 
 .button-primary.sm {
-    font-size: 15.9714px;
+    font-size: 14px;
     display: inline;
     padding: 10px 15px;
     border-radius: 61px;
@@ -83,7 +128,7 @@ h1 strong {
 }
 
 .button-secondary.sm {
-    font-size: 15.9714px;
+    font-size: 14px;
     display: inline;
     padding: 10px 15px;
     border-radius: 61px;
@@ -125,6 +170,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 header .container {
@@ -132,7 +178,7 @@ header .container {
 }
 
 header .logo {
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 header .menu ul {
@@ -195,10 +241,22 @@ header .button-box .btn:last-child {
 }
 
 
-
 /* Hero Section */
 #hero-section {
+    padding: 0 0 140px;
+    position: relative;
+}
+
+#hero-section:before {
+    content: url(../img/hero/bg.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hero-section .hero-section-inner {
     padding: 190px 0 0;
+    background: #FAFAFA;
 }
 
 #hero-section .container {
@@ -210,7 +268,17 @@ header .button-box .btn:last-child {
 }
 
 #hero-section .left-area {
-    padding: 100px 0 0 115px;
+    padding: 100px 0 0 50px;
+}
+
+#hero-section .right-area {
+    position: relative;
+}
+
+#hero-section .right-area .testimonial-style-1 {
+    position: absolute;
+    left: 0;
+    bottom: -140px;
 }
 
 
