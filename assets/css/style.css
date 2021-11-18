@@ -4,6 +4,10 @@ body {
     min-height: 100%;
 }
 
+.container {
+    max-width: 1300px;
+}
+
 img {
     max-width: 100%;
 }
@@ -93,6 +97,27 @@ h1 strong {
     color: #fff;
 }
 
+.section-header-primary {
+    max-width: 680px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.section-header-primary h4 {
+    color: #65A08C;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 10%;
+    margin-bottom: 27px;
+}
+
+.section-header-primary h2 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 45px;
+}
+
 
 /* Header Area */
 header {
@@ -128,7 +153,7 @@ header .menu ul li.has-submenu:before {
     top: 50%;
     width: 11px;
     height: 6px;
-    background: url("../img/icon/caret-down.png") no-repeat;
+    background: url("../img/icons/caret-down.png") no-repeat;
     margin-top: -3px;
 }
 
@@ -170,6 +195,7 @@ header .button-box .btn:last-child {
 }
 
 
+
 /* Hero Section */
 #hero-section {
     padding: 190px 0 0;
@@ -185,4 +211,38 @@ header .button-box .btn:last-child {
 
 #hero-section .left-area {
     padding: 100px 0 0 115px;
+}
+
+
+/* Offer Section  */
+#offer-section {
+    padding: 185px 0 227px ;
+}
+
+#offer-section .offer-item {
+    width: 20%;
+    padding: 0 20px;
+}
+
+#offer-section .inner-box {
+    background: #FFFFFF;
+    box-shadow: 0px 3.12329px 15.6164px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 78.0822px;
+    padding: 25px 10px;
+    border: 0.780822px solid transparent;
+    transition: .3s;
+}
+
+#offer-section .inner-box:hover {
+    border: 0.780822px solid #65A08C;
+}
+
+#offer-section .inner-box p {
+  font-size: 16px;
+  line-height: 35.14px;
+  font-weight: 600px;
+}
+
+#offer-section .button-box {
+    padding-top: 70px;
 }
