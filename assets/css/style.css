@@ -23,26 +23,123 @@ img {
 /* Typograpgy */
 body {
     font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
-.main-menu ul {
+.button-primary {
+    min-width: 242px;
+    font-size: 16px;
+    line-height: 19.33px;
+    color: #fff;
+    background: #65A08C;
+    border-radius: 100px;
+    padding: 14px;
+}
+
+.button-primary.sm {
+    display: inline;
+    padding: 8px 6px;
+    border-radius: 61px;
+    font-weight: 500;
+}
+
+.button-primary .icon-left {
+    margin-right: 5px;
+}
+
+.button-secondary {
+    min-width: 242px;
+    font-size: 16px;
+    line-height: 19.33px;
+    color: #fff;
+    background: #ED99B5;
+    border-radius: 100px;
+    padding: 14px;
+}
+
+.button-secondary.sm {
+    display: inline;
+    padding: 8px 6px;
+    border-radius: 61px;
+    font-weight: 500;
+}
+
+.button-secondary .icon-left {
+    margin-right: 5px;
+}
+
+
+/* Header Area */
+
+header .container {
+    max-width: 1530px;
+}
+
+header nav .logo {
+    margin-right: 40px;
+}
+
+header nav .main-menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.main-menu ul li {
+header nav .main-menu ul li {
     display: inline-block;
-    padding: 10px 22px 0 0;
+    margin: 10px 22px 0 0;
+    position: relative;
 }
 
-.main-menu ul li:last-child {
-    padding-right: 0;
+header nav .main-menu ul li ul li.has-submenu::before {
+    content: "";
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    width: 6px;
+    height: 5px;
+    background: url("../img/icon/caret-down.png") no-repeat;
+    margin-top: -2px;
 }
 
-.main-menu ul li a {
+header nav .menu > ul > li > ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 120px;
+    background: #34323D;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: 0.6s;
+}
+
+header nav .main-menu ul li:last-child {
+    margin-right: 0;
+}
+
+header nav .main-menu ul li a {
     text-decoration: none;
-    font-size: 17.33px;
-    line-height: 20.97px;
+    font-size: 17px;
+    line-height: 21px;
     color: #252C29;
+    padding: 40px 0px;
+    display: block;
+}
+
+header nav .button-box {
+    margin-left: auto;
+}
+
+header .button-box .btn {
+    margin-right: 30px;
+}
+
+header .button-box .btn:last-child {
+    margin-right: 0;
+}
+
+header .button-box .btn:hover {
+    color: #fff;
 }
