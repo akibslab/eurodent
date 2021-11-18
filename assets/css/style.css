@@ -29,7 +29,18 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color: #252C29;
+    line-height: 35px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 75px;
+    margin-bottom: 25px;
+}
+
+h1 strong {
+    color: #65A08C;
 }
 
 .button-primary {
@@ -39,18 +50,20 @@ body {
     color: #fff;
     background: #65A08C;
     border-radius: 100px;
-    padding: 14px;
+    padding: 21px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .button-primary.sm {
+    font-size: 15.9714px;
     display: inline;
     padding: 10px 15px;
     border-radius: 61px;
-    font-weight: 500;
 }
 
 .button-primary .icon-left {
-    margin-right: 8px;
+    margin-right: 5px;
 }
 
 .button-primary:hover {
@@ -64,18 +77,20 @@ body {
     color: #fff;
     background: #ED99B5;
     border-radius: 100px;
-    padding: 14px;
+    padding: 21px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .button-secondary.sm {
+    font-size: 15.9714px;
     display: inline;
     padding: 10px 15px;
     border-radius: 61px;
-    font-weight: 500;
 }
 
 .button-secondary .icon-left {
-    margin-right: 8px;
+    margin-right: 5px;
 }
 
 .button-secondary:hover {
@@ -105,6 +120,13 @@ body {
 
 
 /* Header Area */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 header .container {
     max-width: 1530px;
 }
@@ -174,6 +196,23 @@ header .button-box .btn:last-child {
 
 
 
+/* Hero Section */
+#hero-section {
+    padding: 190px 0 0;
+}
+
+#hero-section .container {
+    max-width: 1530px;
+}
+
+#hero-section .buttons-box {
+    margin-top: 50px;
+}
+
+#hero-section .left-area {
+    padding: 100px 0 0 115px;
+}
+
 
 /* Offer Section  */
 #offer-section {
@@ -207,6 +246,3 @@ header .button-box .btn:last-child {
 #offer-section .button-box {
     padding-top: 70px;
 }
-
-
-
