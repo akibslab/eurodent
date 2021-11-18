@@ -4,7 +4,7 @@
     jQuery(document).ready(function($){
 
 		// Add an Class to the <li> if has Submenu
-    	$('header nav .main-menu ul li:has(ul)').addClass('has-submenu');
+    	$('header .menu ul li:has(ul)').addClass('has-submenu');
 
     	// Slicknav
 		$('#main-menu').slicknav({
