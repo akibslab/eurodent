@@ -173,12 +173,33 @@ header {
     z-index: 1;
 }
 
+header.active {
+    background: #fff;
+}
+
 header .container {
     max-width: 1530px;
 }
 
 header .logo {
+    padding: 20px 0;
     margin-right: 20px;
+}
+
+header .logo .logo-small {
+    display: none;
+}
+
+header.active .menu {
+    display: none;
+}
+
+header.active .logo .logo-small {
+    display: block;
+}
+
+header.active .logo .logo-big {
+    display: none;
 }
 
 header .menu ul {
@@ -190,6 +211,12 @@ header .menu ul {
 header .menu ul li {
     display: inline-block;
     position: relative;
+}
+
+header .menu ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 
 header .menu ul li.has-submenu:before {
@@ -207,12 +234,23 @@ header .menu > ul > li > ul {
     position: absolute;
     left: 0;
     top: 100%;
-    min-width: 120px;
-    background: #34323D;
+    min-width: 293px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 50px 50px;
     opacity: 0;
     visibility: hidden;
     transform: translateY(20px);
     transition: 0.6s;
+    padding: 27px 0;
+}
+
+header .menu > ul > li > ul li {
+    display: block;
+}
+
+header .menu > ul > li > ul li a:hover {
+    background: #65A08C;
+    color: #fff;
 }
 
 header .menu ul li:last-child {
@@ -224,8 +262,17 @@ header .menu ul li a {
     font-size: 17px;
     line-height: 21px;
     color: #252C29;
-    padding: 60px 20px;
+    padding: 12px 40px;
     display: block;
+    -webkit-transition: 0.3s;
+   -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+     -o-transition: 0.3s;
+        transition: 0.3s;
+}
+
+header .menu > ul > li > a {
+    padding: 60px 20px;
 }
 
 header .button-box {
