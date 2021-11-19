@@ -24,13 +24,45 @@
 	        label: '',
 	        appendTo:'.mobile-menu',
 	    });
+
+
+		var testimonialsWidth = $("#testimonials-section .container").width();
+	    var testimonialsWidthOf = $("#testimonials-section .container").offset(); // this will return the left and top
+	    var testimonialsWidthLeft = testimonialsWidthOf.left; // this will return left 
+	    $("#testimonials-section #testimonials-carousel").width(testimonialsWidth + testimonialsWidthLeft + 15);
+
+
+
+	    // Testimonials Carousel
+        $("#testimonials-carousel").owlCarousel({
+            loop: true,
+            nav: true,
+            navText: ['<img src="assets/img/icons/arrow-left-circle.png">', '<img src="assets/img/icons/arrow-right-circle.png">'],
+            dots: false,
+            margin: 36,
+            responsive: {
+                0: {
+                    items: 1.15,
+                },
+                576: {
+                    items: 2.15,
+                },
+                768: {
+                    items: 2.15,
+                },
+                992: {
+                    items: 3.15,
+                }
+            }
+        });
         
     });
 
 
     jQuery(window).load(function(){
-
-        
+    	var testimonialsWidthOf = $("#testimonials-section .container").offset(); // this will return the left and top
+	    var testimonialsWidthLeft = testimonialsWidthOf.left; // this will return left 
+	    $("#testimonials-section #testimonials-carousel .owl-nav").css("right", testimonialsWidthLeft);
     });
 
 
