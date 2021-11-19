@@ -84,10 +84,12 @@ h1 strong {
 
 h2 {
     font-size: 35px;
+    font-weight: 800;
 }
 
 h4 {
     font-size: 20px;
+    font-weight: 600;
 }
 
 .button-primary {
@@ -162,7 +164,7 @@ h4 {
     line-height: 45px;
 }
 
-.bg-blue {
+.bg-light-green {
     background: #ECF4F2;
 }
 
@@ -170,7 +172,7 @@ h4 {
     color: #65A08C;
     font-weight: 600;
     line-height: 35px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .section-header-secondary h2 {
@@ -403,11 +405,12 @@ header .button-box .btn:last-child {
 
 #about-section .right-area {
     padding-top: 35px;
-    padding-right: 35px;
+    padding-left: 35px;
 }
 
-/* Useful Section */
 
+
+/* Useful Section */
 #useful-section {
     padding: 150px 0 166px;
 }
@@ -418,7 +421,7 @@ header .button-box .btn:last-child {
 
 #useful-section .tab-buttons {
     text-align: center;
-    padding-top: 10px;
+    padding: 10px 0 24px;
 }
 
 #useful-section .tab-buttons ul {
@@ -446,6 +449,83 @@ header .button-box .btn:last-child {
 
 #useful-section .tab-buttons ul li a.active {
     color: #65A08C;
+}
+
+#useful-section .tab-contents {
+    padding-top: 63px;
+}
+
+#useful-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#useful-section .button-box {
+    text-align: center;
+    padding-top: 132px;
+}
+
+
+/* Our Clinic Section */
+#clinic-section {
+    padding: 230px 0 120px;
+}
+
+#clinic-section .left-area {
+    padding-right: 60px;
+}
+
+#clinic-section .right-area {
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
+#clinic-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#clinic-section ul li {
+    line-height: 40px;
+}
+
+#clinic-section ul li img {
+    padding-right: 20px;
+}
+
+#clinic-section ul li a {
+    text-decoration: none;
+    color: #252C29;
+}
+
+#clinic-section .image-box {
+    border-radius: 0px 150px;
+    position: relative;
+}
+
+#clinic-section .image-box .clinic-image {
+    border-radius: 0px 150px;
+}
+
+#clinic-section .image-icon {
+    width: 242px;
+    height: 63px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+    color: #fff;
+    background-color: #65A08C;
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+#clinic-section .image-icon img {
+    height: 60px;
+    padding: 0 20px 0 5px;
 }
 
 
@@ -476,4 +556,65 @@ header .button-box .btn:last-child {
 
 #testimonials-section #testimonials-carousel .owl-nav button {
     margin: 0 6px;
+}
+
+
+/* Footer Section */
+footer .footer-top {
+    padding: 72px 0 188px;
+}
+
+footer .footer-top .logo {
+    margin-bottom: 44px;
+}
+
+footer .footer-top p {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 46px;
+}
+
+footer .footer-item {
+    padding-top: 100px;
+}
+
+footer .footer-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+footer .footer-item ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .footer-item ul li {
+    line-height: 50px;
+}
+
+footer .footer-item ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer .footer-bottom {
+    background: #252C29;
+    padding: 30px 0 30px;
+}
+
+footer .footer-bottom p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-bottom p a {
+    text-decoration: none;
+    color: #fff;
 }
