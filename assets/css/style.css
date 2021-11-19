@@ -88,6 +88,14 @@ h1 strong {
     color: #65A08C;
 }
 
+h2 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
 .button-primary {
     min-width: 242px;
     font-size: 15.9714px;
@@ -144,23 +152,42 @@ h1 strong {
 
 .section-header-primary {
     max-width: 680px;
-    margin: 0 auto;
-    padding-bottom: 70px;
+    margin: 0 auto 70px;
+    text-align: center;
 }
 
 .section-header-primary h4 {
     color: #65A08C;
-    font-size: 20px;
     font-weight: 600;
     line-height: 35px;
-    letter-spacing: 10%;
     margin-bottom: 27px;
 }
 
 .section-header-primary h2 {
-    font-size: 35px;
     font-weight: 800;
     line-height: 45px;
+}
+
+.bg-blue {
+    background: #ECF4F2;
+}
+
+.section-header-secondary h4 {
+    color: #65A08C;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+
+.section-header-secondary h2 {
+    font-weight: 800;
+    line-height: 45px;
+    margin-bottom: 36px;
+}
+
+.section-header-secondary p {
+    line-height: 35px;
+    margin-bottom: 57px;
 }
 
 
@@ -332,6 +359,14 @@ header .button-box .btn:last-child {
 /* Offer Section  */
 #offer-section {
     padding: 185px 0 227px ;
+    position: relative;
+}
+
+#offer-section::before {
+    content: url(../img/offer-img/bg.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 #offer-section .offer-item {
@@ -360,4 +395,60 @@ header .button-box .btn:last-child {
 
 #offer-section .button-box {
     padding-top: 70px;
+}
+
+/*About Section*/
+#about-section {
+    padding: 193px 0 214px;
+}
+
+#about-section .left-area {
+    padding-right: 35px;
+}
+
+#about-section .right-area {
+    padding-top: 35px;
+    padding-right: 35px;
+}
+
+/* Useful Section */
+
+#useful-section {
+    padding: 150px 0 166px;
+}
+
+#useful-section .section-header-primary {
+    max-width: 766px;
+}
+
+#useful-section .tab-buttons {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#useful-section .tab-buttons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#useful-section .tab-buttons ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#useful-section .tab-buttons ul li:last-child {
+    margin-right: 0;
+}
+
+#useful-section .tab-buttons ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #252C29;
+}
+
+#useful-section .tab-buttons ul li a.active {
+    color: #65A08C;
 }
