@@ -531,8 +531,12 @@ header .button-box .btn:last-child {
 
 /* Testimonials Section */
 #testimonials-section {
-    background: #252C29;
+    padding: 0 0 246px;
+}
+
+#testimonials-section .testimonials-section-inner {
     padding: 174px 0 0;
+    background: #252C29;
 }
 
 #testimonials-section .section-header-secondary {
@@ -540,11 +544,11 @@ header .button-box .btn:last-child {
 }
 
 #testimonials-section #testimonials-carousel {
-    margin-bottom: -250px;
+    margin-bottom: -190px;
 }
 
 #testimonials-section #testimonials-carousel .testimonial-style-1  {
-    margin-bottom: 72px;
+    margin-bottom: 50px;
 }
 
 #testimonials-section #testimonials-carousel .owl-nav  {
