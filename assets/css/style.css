@@ -647,6 +647,7 @@ footer .footer-bottom p a {
     color: #fff;
 }
 
+
 /* Page Header Primary Section */
 #page-header-primary {
     padding-bottom: 426px;
@@ -676,6 +677,7 @@ footer .footer-bottom p a {
     margin-bottom: -356px;
 }
 
+
 /* Testimonial Section Two */
 #testimonial-section-two {
     padding: 145px 0 132px;
@@ -703,7 +705,6 @@ footer .footer-bottom p a {
 
 
 /* CTA Section Primary */
-
 #cta-section-primary {
     padding: 173px 0 189px;
     color: #fff;
@@ -728,6 +729,7 @@ footer .footer-bottom p a {
     line-height: 40px;
     margin-left: 24px;
 }
+
 
 /* Alternative Section */
 #alternative-section {
@@ -759,6 +761,7 @@ footer .footer-bottom p a {
   font-weight: 600px;
 }
 
+
 /* Page Details Section */
 #page-details-section {
     padding: 70px 0 189px;
@@ -770,6 +773,39 @@ footer .footer-bottom p a {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#page-details-section .details-list-box ul {
+    list-style: none;
+    margin: 0 0 39px;
+    padding: 0;   
+}
+
+#page-details-section .details-list-box ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+#page-details-section .details-list-box ul li a.active {
+    color: #65A08C;
+    font-weight: 600;
+    letter-spacing: 2%;
+    padding-left: 40px;
+}
+
+#page-details-section .details-item-box {
+    width: calc(100% - 367px);
+    padding-left: 100px;
+}
+
+#page-details-section .details-item-box h2 {
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+>>>>>>> ce7a942e1c13c796d376206b776f72972e2f7d11
 
 /* Our Clinic Section */
 #our-clinic-section {
@@ -820,6 +856,7 @@ footer .footer-bottom p a {
 #our-clinic-section .owl-nav button {
     margin: 0 6px;
 }
+<<<<<<< HEAD
 =======
 #page-details-section .details-list-box ul {
     list-style: none;
@@ -852,3 +889,6 @@ footer .footer-bottom p a {
 }
 
 >>>>>>> 320ee77843ac39588f9e5df3ac29a7a6e240f788
+=======
+
+>>>>>>> ce7a942e1c13c796d376206b776f72972e2f7d11
