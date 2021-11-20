@@ -191,6 +191,10 @@ h4 {
     margin-bottom: 57px;
 }
 
+.page-padding-top {
+    margin-top: 150px;
+}
+
 
 /* Header Area */
 header {
@@ -625,3 +629,47 @@ footer .footer-bottom p a {
     text-decoration: none;
     color: #fff;
 }
+
+/* Page Header Primary Section */
+#page-header-primary {
+    padding-bottom: 426px;
+}
+
+#page-header-primary .page-header-inner {
+    background: #ECF4F2;
+    border-radius: 0 0 200px 200px;
+}
+
+#page-header-primary .page-header-primary {
+    padding-top: 124px;
+}
+
+#page-header-primary .page-header-primary h4 {
+    color: #65A08C;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+}
+
+#page-header-primary .page-header-primary h1 {
+   margin-bottom: 148px;
+}
+
+#page-header-primary .page-section-image {
+    border-radius: 0px 150px;
+    margin-bottom: -356px;
+}
+
+/* Testimonial Section Two */
+
+#testimonial-section-two .testimonials-box {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#testimonial-section-two .testimonial-item {
+    width: 50%;
+    padding: 0 19px;
+    margin-bottom: 38px;
+}
+
