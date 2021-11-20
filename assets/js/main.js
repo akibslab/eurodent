@@ -7,6 +7,7 @@
     	$('header .menu ul li:has(ul)').addClass('has-submenu');
 
 
+    	// Add class to header on scroll
     	$(window).scroll(function() {    
 		    var scroll = $(window).scrollTop();
 
@@ -26,10 +27,21 @@
 	    });
 
 
-		var testimonialsWidth = $("#testimonials-section .container").width();
-	    var testimonialsWidthOf = $("#testimonials-section .container").offset(); // this will return the left and top
+	    // Useful Section Tab
+	    $('#useful-section .tab-item:not(:first)').hide();
+	     $('#useful-section .tab-buttons ul li a').click(function(e){
+	     	e.preventDefault();
+            $("#useful-section .tab-buttons ul li a").removeClass("active");
+            $(this).addClass("active");
+            $('#useful-section .tab-item').hide();
+            $('#useful-section #tab-item-'+$(this).attr('data-index')).fadeIn();
+        });
+
+
+		var testimonialsWidth = $(".carousel-style-1 .container").width();
+	    var testimonialsWidthOf = $(".carousel-style-1 .container").offset(); // this will return the left and top
 	    var testimonialsWidthLeft = testimonialsWidthOf.left; // this will return left 
-	    $("#testimonials-section #testimonials-carousel").width(testimonialsWidth + testimonialsWidthLeft + 15);
+	    $(".carousel-style-1 .owl-carousel").width(testimonialsWidth + testimonialsWidthLeft + 15);
 
 
 
@@ -60,9 +72,9 @@
 
 
     jQuery(window).load(function(){
-    	var testimonialsWidthOf = $("#testimonials-section .container").offset(); // this will return the left and top
+    	var testimonialsWidthOf = $(".carousel-style-1 .container").offset(); // this will return the left and top
 	    var testimonialsWidthLeft = testimonialsWidthOf.left; // this will return left 
-	    $("#testimonials-section #testimonials-carousel .owl-nav").css("right", testimonialsWidthLeft);
+	    $(".carousel-style-1 .owl-carousel .owl-nav").css("right", testimonialsWidthLeft);
     });
 
 

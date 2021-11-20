@@ -422,15 +422,23 @@ header .button-box .btn:last-child {
 /* Useful Section */
 #useful-section {
     padding: 150px 0 166px;
+    position: relative;
+}
+
+#useful-section:before {
+    content: url(../img/useful/bg.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 #useful-section .section-header-primary {
     max-width: 766px;
+    margin: 0 auto 124px;
 }
 
 #useful-section .tab-buttons {
     text-align: center;
-    padding-top: 10px;
     margin-bottom: 87px;
 }
 
