@@ -765,5 +765,36 @@ footer .footer-bottom p a {
 
 #page-details-section .details-list-box {
     width: 367px;
-    border-right: 1px solid #C7C7C7;    
+    border-right: 1px solid #C7C7C7; 
 }
+
+#page-details-section .details-list-box ul {
+    list-style: none;
+    margin: 0 0 39px;
+    padding: 0;   
+}
+
+#page-details-section .details-list-box ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+#page-details-section .details-list-box ul li a.active {
+    color: #65A08C;
+    font-weight: 600;
+    letter-spacing: 2%;
+    padding-left: 40px;
+}
+
+#page-details-section .details-item-box {
+    width: calc(100% - 367px);
+    padding-left: 100px;
+}
+
+#page-details-section .details-item-box h2 {
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
