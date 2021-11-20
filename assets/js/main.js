@@ -46,9 +46,11 @@
 
 
         // Testimonial Section Two Masonry
-        $('#testimonial-section-two .testimonials-box').masonry({
-            itemSelector: '#testimonial-section-two .testimonial-item',
-        });
+        if($("#testimonial-section-two").length > 0) {
+	        $('#testimonial-section-two .testimonials-box').masonry({
+	            itemSelector: '#testimonial-section-two .testimonial-item',
+	        });
+	    }
 
 
 	    // Testimonials Carousel
@@ -70,6 +72,30 @@
                 },
                 992: {
                     items: 3.15,
+                }
+            }
+        });
+
+
+	    // Our Clinic Carousel
+        $("#our-clinic-carousel").owlCarousel({
+            loop: true,
+            nav: true,
+            navText: ['<img src="assets/img/icons/arrow-left-circle.png">', '<img src="assets/img/icons/arrow-right-circle.png">'],
+            dots: false,
+            margin: 36,
+            responsive: {
+                0: {
+                    items: 1.5,
+                },
+                576: {
+                    items: 2.5,
+                },
+                768: {
+                    items: 2.5,
+                },
+                992: {
+                    items: 3.5,
                 }
             }
         });
