@@ -37,12 +37,18 @@
             $('#useful-section #tab-item-'+$(this).attr('data-index')).fadeIn();
         });
 
+        if($(".carousel-style-1").length > 0) {
+            var testimonialsWidth = $(".carousel-style-1 .container").width();
+            var testimonialsWidthOf = $(".carousel-style-1 .container").offset(); // this will return the left and top
+            var testimonialsWidthLeft = testimonialsWidthOf.left; // this will return left 
+            $(".carousel-style-1 .owl-carousel").width(testimonialsWidth + testimonialsWidthLeft + 15);
+        }
 
-		var testimonialsWidth = $(".carousel-style-1 .container").width();
-	    var testimonialsWidthOf = $(".carousel-style-1 .container").offset(); // this will return the left and top
-	    var testimonialsWidthLeft = testimonialsWidthOf.left; // this will return left 
-	    $(".carousel-style-1 .owl-carousel").width(testimonialsWidth + testimonialsWidthLeft + 15);
 
+        // Testimonial Section Two Masonry
+        $('#testimonial-section-two .testimonials-box').masonry({
+            itemSelector: '#testimonial-section-two .testimonial-item',
+        });
 
 
 	    // Testimonials Carousel
@@ -72,9 +78,12 @@
 
 
     jQuery(window).load(function(){
-    	var testimonialsWidthOf = $(".carousel-style-1 .container").offset(); // this will return the left and top
-	    var testimonialsWidthLeft = testimonialsWidthOf.left; // this will return left 
-	    $(".carousel-style-1 .owl-carousel .owl-nav").css("right", testimonialsWidthLeft);
+
+        if($(".carousel-style-1").length > 0) {
+            var testimonialsWidthOf = $(".carousel-style-1 .container").offset(); // this will return the left and top
+            var testimonialsWidthLeft = testimonialsWidthOf.left; // this will return left 
+            $(".carousel-style-1 .owl-carousel .owl-nav").css("right", testimonialsWidthLeft);
+        }
     });
 
 

@@ -195,6 +195,14 @@ h4 {
     margin-top: 150px;
 }
 
+.bg-blue {
+    background: #005EB8;
+}
+
+.bg-green {
+    background: #65A08C;
+}
+
 
 /* Header Area */
 header {
@@ -668,6 +676,9 @@ footer .footer-bottom p a {
 }
 
 /* Testimonial Section Two */
+#testimonial-section-two {
+    padding: 145px 0 132px;
+}
 
 #testimonial-section-two .testimonials-box {
     max-width: 990px;
@@ -681,3 +692,78 @@ footer .footer-bottom p a {
     margin-bottom: 38px;
 }
 
+#testimonial-section-two .testimonial-item:nth-child(2) {
+    margin-top: 97px;
+}
+
+#testimonial-section-two .button-box {
+    padding-top: 48px;
+}
+
+
+/* CTA Section Primary */
+
+#cta-section-primary {
+    padding: 173px 0 189px;
+    color: #fff;
+}
+
+#cta-section-primary .button-primary {
+    background: #ED99B5;
+}
+
+#cta-section-primary h4 {
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    margin-bottom: 13px;
+}
+
+#cta-section-primary h2 {
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+#cta-section-primary p {
+    line-height: 40px;
+    margin-left: 24px;
+}
+
+/* Alternative Section */
+#alternative-section {
+    padding: 147px 0 184px;
+    border: 1px solid #E0E0E0;
+}
+
+#alternative-section .alternative-item {
+    width: 20%;
+    padding: 0 20px;
+}
+
+#alternative-section .inner-box {
+    background: #FFFFFF;
+    box-shadow: 0px 3.12329px 15.6164px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 78.0822px;
+    padding: 25px 10px;
+    border: 0.780822px solid transparent;
+    transition: .3s;
+}
+
+#alternative-section .inner-box:hover {
+    border: 0.780822px solid #65A08C;
+}
+
+#alternative-section .inner-box p {
+  font-size: 16px;
+  line-height: 35.14px;
+  font-weight: 600px;
+}
+
+/* Page Details Section */
+#page-details-section {
+    padding: 70px 0 189px;
+}
+
+#page-details-section .details-list-box {
+    width: 367px;
+    border-right: 1px solid #C7C7C7;    
+}
