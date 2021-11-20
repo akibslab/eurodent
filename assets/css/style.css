@@ -210,7 +210,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 100;
 }
 
 header.active {
@@ -564,6 +564,7 @@ header .button-box .btn:last-child {
 
 #testimonials-section .section-header-secondary {
     margin-bottom: 90px;
+    padding-right: 300px;
 }
 
 #testimonials-section #testimonials-carousel {
@@ -574,14 +575,14 @@ header .button-box .btn:last-child {
     margin-bottom: 50px;
 }
 
-#testimonials-section #testimonials-carousel .owl-nav  {
+#testimonials-section .owl-nav  {
     position: absolute;
     top: 0;
     right: 0;
     margin-top: -143px;
 }
 
-#testimonials-section #testimonials-carousel .owl-nav button {
+#testimonials-section .owl-nav button {
     margin: 0 6px;
 }
 
@@ -646,6 +647,7 @@ footer .footer-bottom p a {
     color: #fff;
 }
 
+
 /* Page Header Primary Section */
 #page-header-primary {
     padding-bottom: 426px;
@@ -675,6 +677,7 @@ footer .footer-bottom p a {
     margin-bottom: -356px;
 }
 
+
 /* Testimonial Section Two */
 #testimonial-section-two {
     padding: 145px 0 132px;
@@ -702,7 +705,6 @@ footer .footer-bottom p a {
 
 
 /* CTA Section Primary */
-
 #cta-section-primary {
     padding: 173px 0 189px;
     color: #fff;
@@ -727,6 +729,7 @@ footer .footer-bottom p a {
     line-height: 40px;
     margin-left: 24px;
 }
+
 
 /* Alternative Section */
 #alternative-section {
@@ -757,6 +760,7 @@ footer .footer-bottom p a {
   line-height: 35.14px;
   font-weight: 600px;
 }
+
 
 /* Page Details Section */
 #page-details-section {
@@ -796,5 +800,56 @@ footer .footer-bottom p a {
 #page-details-section .details-item-box h2 {
     line-height: 45px;
     margin-bottom: 40px;
+}
+
+
+/* Our Clinic Section */
+#our-clinic-section {
+    padding: 154px 0 187px;
+}
+
+#our-clinic-section .section-header-secondary {
+    padding-right: 300px;
+    margin-bottom: 90px;
+}
+
+#our-clinic-section .owl-carousel:before {
+    content: "";
+    height: 18px;
+    width: 100%;
+    position: absolute;
+    top:  50%;
+    left: 50px;
+    margin-top: -9px;
+    background: #65A08C;
+}
+
+#our-clinic-section .our-clinic-item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    padding: 72px 30px 50px;
+}
+
+#our-clinic-section .our-clinic-item .number {
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 25px;
+    color: #65A08C;
+    opacity: 0.1;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+#our-clinic-section .owl-nav  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -143px;
+}
+
+#our-clinic-section .owl-nav button {
+    margin: 0 6px;
 }
 
