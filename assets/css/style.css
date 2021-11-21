@@ -945,9 +945,13 @@ footer .footer-bottom p a {
 }
 
 /* Hero Section Two */
+#hero-section-2 {
+    padding: 0 0 165px;
+}
 #hero-section-2 .hero-section-two-inner{
     background: #ECF4F2;
     border-radius: 0px 0px 0px 150px;
+    padding-top: 122px
 }
 
 #hero-section-2 .hero-text {
@@ -968,13 +972,9 @@ footer .footer-bottom p a {
     margin-bottom: 50px;
 }
 
-#hero-section-2 .btn.button-primary {
-    margin-bottom: 225px;
-}
-
-
 #hero-section-2 .hero-two-image {
     border-radius: 0px 150px;
+    margin-bottom: -90px;
 }
 
 
