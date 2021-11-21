@@ -934,4 +934,40 @@ footer .footer-bottom p a {
     margin: 0 6px;
 }
 
+/* Hero Section Two */
+#hero-section-2 .hero-section-two-inner{
+    background: #ECF4F2;
+    border-radius: 0px 0px 0px 150px;
+}
+
+#hero-section-2 .hero-text {
+    padding-top: 191px;
+}
+
+#hero-section-2 .hero-text h4 {
+    color: #65A08C;
+    letter-spacing: 0.1em;
+    line-height: 35px;
+}
+
+#hero-section-2 .hero-text h1 {
+    margin-bottom: 36px;
+}
+
+#hero-section-2 .hero-text p {
+    margin-bottom: 50px;
+}
+
+#hero-section-2 .btn.button-primary {
+    margin-bottom: 225px;
+}
+
+
+#hero-section-2 .hero-two-image {
+    border-radius: 0px 150px;
+}
+
+
+
+
 
