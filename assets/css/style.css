@@ -107,13 +107,15 @@ h4 {
     padding: 21px 10px;
     font-weight: 500;
     text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 .button-primary.sm {
-    font-size: 14px;
     display: inline;
-    padding: 10px 15px;
+    padding: 11px 15px;
     border-radius: 61px;
+    letter-spacing: initial;
+    text-transform: initial;
 }
 
 .button-primary .icon-left {
@@ -134,13 +136,15 @@ h4 {
     padding: 21px 10px;
     font-weight: 500;
     text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 .button-secondary.sm {
-    font-size: 14px;
     display: inline;
-    padding: 10px 15px;
+    padding: 11px 15px;
     border-radius: 61px;
+    letter-spacing: initial;
+    text-transform: initial;
 }
 
 .button-secondary .icon-left {
@@ -222,6 +226,8 @@ header .container {
 }
 
 header .logo {
+    max-width: 180px;
+    width: 100%;
     padding: 20px 0;
     margin-right: 20px;
 }
@@ -327,6 +333,10 @@ header .button-box .btn:last-child {
     margin-right: 0;
 }
 
+header .mobile-menu {
+    display: none;
+}
+
 
 /* Hero Section */
 #hero-section {
@@ -364,7 +374,7 @@ header .button-box .btn:last-child {
 
 #hero-section .right-area .testimonial-style-1 {
     position: absolute;
-    left: 0;
+    left: -40px;
     bottom: -140px;
     max-width: 457px;
 }
