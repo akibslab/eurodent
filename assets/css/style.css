@@ -495,11 +495,11 @@ header .button-box .btn:last-child {
 }
 
 #clinic-section .left-area {
-    padding-right: 60px;
+    padding-right: 38px;
 }
 
 #clinic-section .right-area {
-    padding-left: 60px;
+    padding-left: 38px;
     padding-top: 50px;
 }
 
@@ -820,6 +820,19 @@ footer .footer-bottom p a {
     font-weight: 600;
     letter-spacing: 2%;
     padding-left: 40px;
+    position: relative;
+}
+
+#page-details-section .details-list-box ul li a.active::before {
+    content: "";
+    position: absolute;
+    width: 31px;
+    height: 2px;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    display: block;
+    background:  #65A08C;
 }
 
 #page-details-section .details-item-box {
@@ -832,6 +845,44 @@ footer .footer-bottom p a {
     margin-bottom: 40px;
 }
 
+#page-details-section .details-item-box p {
+    margin-bottom: 60px;
+}
+
+#page-details-section .table-responsive tr th {
+    padding: 16px 0;
+    border-top: 1px solid #65A08C;
+    border-bottom: 1px solid #65A08C;
+    font-weight: 600;
+    line-height: 35px;
+    color: #65A08C;
+}
+
+#page-details-section .table-responsive tr th:nth-child(2) {
+    text-align: left;
+}
+
+#page-details-section .table-responsive tr th:nth-child(3) {
+    text-align: right;
+}
+
+#page-details-section .table-responsive tr td {
+    padding: 0;
+    border: none;
+    line-height: 60px;
+}
+
+#page-details-section .table-responsive .table {
+    margin-bottom: 86px;
+}
+
+#page-details-section .table-responsive tr td:nth-child(2) {
+    text-align: left;
+}
+
+#page-details-section .table-responsive tr td:nth-child(3) {
+    text-align: right;
+}
 
 /* Our Clinic Section */
 #our-clinic-section {
