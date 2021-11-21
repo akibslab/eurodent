@@ -365,10 +365,20 @@ header .mobile-menu {
 }
 
 #hero-section .left-area {
-    padding: 100px 0 0 50px;
+    padding: 100px 0 25px 50px;
 }
 
 #hero-section .right-area {
+    position: relative;
+}
+
+#hero-section .right-area .effect-image {
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+}
+
+#hero-section .right-area .featured-image {
     position: relative;
 }
 

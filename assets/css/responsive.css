@@ -9,13 +9,17 @@
 	}
 
 	header .menu > ul > li > a {
-	    padding: 60px 10px;
+	    padding: 60px 15px 60px 10px;
 	}
 
 	header .button-box .btn {
 	    margin-right: 10px;
 	    padding: 11px 10px;
 	    font-size: 14px;
+	}
+
+	#hero-section {
+		padding: 0;
 	}
 }
 
@@ -25,6 +29,10 @@
 
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1199px) { 
+	h1 {
+		font-size: 50px;
+	}
+
 	header {
 		background: #EEF5F4;
 		padding: 20px 0;
@@ -104,6 +112,60 @@
 		left: 0;
 		width: 100%;
 		background: #EEF5F4;
+		text-align: center;
+		height: 100vh;
+	}
+
+	header .slicknav_nav a {
+		font-size: 35px;
+		font-weight: 500;
+		line-height: 55px;
+		color: #252C29;
+	}
+
+	header .slicknav_nav li ul li a {
+		font-size: 25px;
+		line-height: 35px;
+	}
+
+	#hero-section .hero-section-inner {
+	    padding: 100px 0 0;
+		text-align: center;
+	}
+
+	#hero-section:before {
+	    display: none;
+	}
+
+	#hero-section h1 {
+		max-width: 595px;
+		width: 100%;
+		line-height: 60px;
+		margin: 0 auto 30px;
+	}
+
+	#hero-section .left-area p {
+		max-width: 736px;
+		width: 100%;
+		margin: 0 auto 80px;
+	}
+
+	#hero-section .right-area .effect-image {
+		display: none;
+	}
+
+	#hero-section .right-area .testimonial-style-1 {
+		left: 50px;
+		bottom: -120px;
+		max-width: 533px;
+	}
+
+	#offer-section {
+	    padding: 85px 0 95px;
+	}
+
+	#offer-section .offer-item {
+	    padding: 0 10px;
 	}
 }
 
@@ -113,12 +175,103 @@
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
-	header .menu {
+	header {
+		background: #EEF5F4;
+		padding: 0;
+	}
+
+	header .logo {
+		max-width: 120px;
+	}
+
+    header .menu {
 	    display: none;
 	}
 
 	header .mobile-menu {
 	    display: block;
+	}
+
+	header .button-box .btn {
+		padding: 5px;
+		border-radius: 50%;
+		min-width: 40px;
+		height: 40px;
+		display: inline-block;
+		line-height: 26px;
+		margin-right: 5px;
+		background: #ED99B5;
+	}
+
+	header .button-box .btn .text {
+		display: none;
+	}
+
+	header .button-primary .icon-left {
+	    margin-right: 0;
+	}
+
+	header .button-secondary .icon-left {
+	    margin-right: 0;
+	}
+
+	header .button-box .btn:last-child {
+	    margin-right: 10px;
+	}
+
+	header .slicknav_menu {
+	    padding: 0;
+	    background: transparent;
+	}
+
+	header .slicknav_btn {
+	    margin: 0;
+	    text-shadow: none;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    border-radius: 50%;
+	    background-color: #65A08C;
+	    width: 40px;
+		height: 40px;
+		text-align: center;
+		position: relative;
+	}
+
+	header .slicknav_menu .slicknav_icon-bar {
+	    width: 20px;
+	    height: 2px;
+	    box-shadow: none;
+	}
+
+	header .slicknav_menu .slicknav_no-text {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    width: 20px;
+	    height: 12px;
+	}
+
+	header .slicknav_nav {
+	    position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		background: #EEF5F4;
+		text-align: center;
+		height: 100vh;
+	}
+
+	header .slicknav_nav a {
+		font-size: 35px;
+		font-weight: 500;
+		line-height: 55px;
+		color: #252C29;
+	}
+
+	header .slicknav_nav li ul li a {
+		font-size: 25px;
+		line-height: 35px;
 	}
 }
 
@@ -128,7 +281,105 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
+	header {
+		background: #EEF5F4;
+		padding: 0;
+	}
 
+	header .logo {
+		max-width: 120px;
+		margin-right: 10px;
+	}
+
+    header .menu {
+	    display: none;
+	}
+
+	header .mobile-menu {
+	    display: block;
+	}
+
+	header .button-box .btn {
+		padding: 5px;
+		border-radius: 50%;
+		min-width: 40px;
+		height: 40px;
+		display: inline-block;
+		line-height: 26px;
+		margin-right: 5px;
+		background: #ED99B5;
+	}
+
+	header .button-box .btn .text {
+		display: none;
+	}
+
+	header .button-primary .icon-left {
+	    margin-right: 0;
+	}
+
+	header .button-secondary .icon-left {
+	    margin-right: 0;
+	}
+
+	header .button-box .btn:last-child {
+	    margin-right: 10px;
+	}
+
+	header .slicknav_menu {
+	    padding: 0;
+	    background: transparent;
+	}
+
+	header .slicknav_btn {
+	    margin: 0;
+	    text-shadow: none;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    border-radius: 50%;
+	    background-color: #65A08C;
+	    width: 40px;
+		height: 40px;
+		text-align: center;
+		position: relative;
+	}
+
+	header .slicknav_menu .slicknav_icon-bar {
+	    width: 20px;
+	    height: 2px;
+	    box-shadow: none;
+	}
+
+	header .slicknav_menu .slicknav_no-text {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    width: 20px;
+	    height: 12px;
+	}
+
+	header .slicknav_nav {
+	    position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		background: #EEF5F4;
+		text-align: center;
+		height: 100vh;
+	}
+
+	header .slicknav_nav a {
+		font-size: 35px;
+		font-weight: 500;
+		line-height: 55px;
+		color: #252C29;
+	}
+
+	header .slicknav_nav li ul li a {
+		font-size: 25px;
+		line-height: 35px;
+	}
 }
 
 
