@@ -728,6 +728,27 @@ footer .footer-bottom p a {
 }
 
 
+/* Testimonial Section Three */
+#testimonial-section-three {
+    padding: 70px 0 132px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#testimonial-section-three .testimonial-item {
+    width: 50%;
+    padding: 0 30px;
+    margin-bottom: 38px;
+}
+
+#testimonial-section-three .button-box {
+    padding-top: 48px;
+}
+
+#testimonial-section-three .video-box {
+    margin-bottom: 22px;
+}
+
+
 /* CTA Section Primary */
 #cta-section-primary {
     padding: 173px 0 189px;
@@ -936,6 +957,42 @@ footer .footer-bottom p a {
 #page-details-section .table-responsive tr td:nth-child(3) {
     text-align: right;
 }
+
+#page-details-section .details-item h5 {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+#page-details-section .details-item .card {
+    border: none;
+}
+
+#page-details-section .details-item .card-header {
+    background: #fff;
+    border-bottom: 1px solid #E0E0E0;
+    position: relative;
+    cursor: pointer;
+}
+
+#page-details-section .details-item .card-header i {
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    margin-top: -14px;
+    transition: 0.3s;
+    color: #C4C4C4;
+}
+
+#page-details-section .details-item .card-header.active i {
+    transform: rotate(-180deg);
+}
+
+#page-details-section .details-item .card-body {
+    line-height: 35px;
+}
+
 
 /* Our Clinic Section */
 #our-clinic-section {
@@ -1176,5 +1233,83 @@ footer .footer-bottom p a {
 #team-section  img{
     border-radius: 0px 78.0822px 0 0;
     margin-bottom: 30px;
+}
+
+
+
+/* Page Header Secondary  */
+
+#page-header-scondary {
+    padding: 106px 0 125px;
+    background: #ECF4F2;
+    border-radius: 0px 0px 0px 150px;
+}
+
+#page-header-scondary h4 {
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: #65A08C;
+}
+
+
+/* Table Primary Section */
+
+#table-primary-section {
+    padding: 152px 0 100px;
+}
+
+#table-primary-section .table-responsive tr th {
+    padding: 16px 0;
+    border-top: 1px solid #65A08C;
+    border-bottom: 1px solid #65A08C;
+    font-weight: 600;
+    line-height: 35px;
+    color: #65A08C;
+}
+
+#table-primary-section .table-responsive tr th:nth-child(1) {
+    width: calc(100% - 220px);
+}
+
+#table-primary-section .table-responsive tr th:nth-child(2) {
+    width: 130px;
+    text-align: center;
+}
+
+#table-primary-section .table-responsive tr th:nth-child(3) {
+    width: 90px;
+    text-align: center;
+}
+
+#table-primary-section .table-responsive tr td {
+    padding: 0;
+    border-top: none;
+    border-bottom: 1px solid #DADADA;
+    font-size: 25px;
+    line-height: 90px;
+}
+
+#table-primary-section .table-responsive tr td:nth-child(1) {
+    width: calc(100% - 220px);
+}
+
+#table-primary-section .table-responsive tr td:nth-child(2) {
+    width: 130px;
+    text-align: center;
+}
+
+#table-primary-section .table-responsive tr td:nth-child(3) {
+    width: 90px;
+    text-align: center;
+}
+
+#table-primary-section h3 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 90px;
+}
+
+#table-primary-section  .table-margin {
+    margin-bottom: 50px;
 }
 
