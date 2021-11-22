@@ -758,6 +758,10 @@ footer .footer-bottom p a {
 /* CTA Section Secondary */
 #cta-section-secondary {
     padding: 162px 0 162px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
 }
 
 #cta-section-secondary h1{
@@ -766,6 +770,17 @@ footer .footer-bottom p a {
 
 #cta-section-secondary .button-primary {
     background: #ED99B5;
+}
+
+#cta-section-secondary::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(37, 44, 41, 0.8), rgba(37, 44, 41, 0.8)), url(.jpg);
+
 }
 
 
@@ -1016,11 +1031,12 @@ footer .footer-bottom p a {
 
 /* Compare Section */
 #compare-section {
-    background: #F7F5F6;
+    padding-bottom: 129px;
 }
 
 #compare-section .inner-compare-section {
-    padding: 149px 0 129px;
+    background: #F7F5F6;
+    padding-top: 149px;
 }
 
 #compare-section .compares-box {
@@ -1070,6 +1086,10 @@ footer .footer-bottom p a {
 }
 
 #compare-section .table-box {
+    background: #fff;
+}
+
+#compare-section .table-responsive {
     margin-top: 44px;
 }
 
@@ -1121,8 +1141,12 @@ footer .footer-bottom p a {
     color: #ED99B5;
 }
 
-#compare-section .inactive i {
+#compare-section tr td.inactive i {
     color: #D7D7D7;
+}
+
+#compare-section .button-box {
+    padding-top: 102px;
 }
 
 
