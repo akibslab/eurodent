@@ -51,7 +51,13 @@
             var testimonialsWidth = $(".carousel-style-1 .container").width();
             var testimonialsWidthOf = $(".carousel-style-1 .container").offset(); // this will return the left and top
             var testimonialsWidthLeft = testimonialsWidthOf.left; // this will return left 
-            $(".carousel-style-1 .owl-carousel").width(testimonialsWidth + testimonialsWidthLeft + 15);
+            $(".carousel-style-1 .owl-carousel").width(testimonialsWidth + testimonialsWidthLeft);
+            if ($(window).width() < 768) {
+               $(".carousel-style-1 .owl-carousel").width(testimonialsWidth + testimonialsWidthLeft);
+            }
+            else {
+                $(".carousel-style-1 .owl-carousel").width(testimonialsWidth + testimonialsWidthLeft + 15);
+            }
         }
 
 
@@ -79,15 +85,18 @@
             margin: 36,
             responsive: {
                 0: {
-                    items: 1.15,
+                    items: 1,
                 },
                 576: {
-                    items: 2.15,
+                    items: 1.5,
                 },
                 768: {
-                    items: 2.15,
+                    items: 1.7,
                 },
                 992: {
+                    items: 1.7,
+                },
+                1200: {
                     items: 3.15,
                 }
             }
