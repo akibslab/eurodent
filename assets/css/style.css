@@ -85,6 +85,7 @@ h1 strong {
 h2 {
     font-size: 35px;
     font-weight: 800;
+    line-height: 45px;
 }
 
 h3 {
@@ -170,11 +171,14 @@ h4 {
 
 .section-header-primary h2 {
     font-weight: 800;
-    line-height: 45px;
 }
 
 .bg-light-green {
     background: #ECF4F2;
+}
+
+.section-header-secondary {
+    margin-bottom: 36px;
 }
 
 .section-header-secondary h4 {
@@ -186,8 +190,6 @@ h4 {
 
 .section-header-secondary h2 {
     font-weight: 800;
-    line-height: 45px;
-    margin-bottom: 36px;
 }
 
 .section-header-secondary p {
@@ -365,7 +367,7 @@ header .mobile-menu {
 }
 
 #hero-section .left-area {
-    padding: 100px 0 25px 50px;
+    padding: 100px 25px 25px 50px;
 }
 
 #hero-section .right-area {
@@ -421,10 +423,14 @@ header .mobile-menu {
     border: 0.780822px solid #65A08C;
 }
 
+#offer-section .inner-box img {
+  margin-bottom: 5px;
+}
+
 #offer-section .inner-box p {
   font-size: 16px;
-  line-height: 35.14px;
-  font-weight: 600px;
+  line-height: 1.5em;
+  font-weight: 600;
 }
 
 #offer-section .button-box {
@@ -527,6 +533,10 @@ header .mobile-menu {
     padding-top: 50px;
 }
 
+#clinic-section .right-area p {
+    margin-bottom: 57px;
+}
+
 #clinic-section ul {
     list-style: none;
     margin: 0;
@@ -535,10 +545,17 @@ header .mobile-menu {
 
 #clinic-section ul li {
     line-height: 40px;
+    position: relative;
+    padding-left: 35px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
 }
 
 #clinic-section ul li img {
-    padding-right: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
 }
 
 #clinic-section ul li a {
@@ -549,6 +566,8 @@ header .mobile-menu {
 #clinic-section .image-box {
     border-radius: 0px 150px;
     position: relative;
+    max-width: 613px;
+    width: 100%;
 }
 
 #clinic-section .image-box .clinic-image {
