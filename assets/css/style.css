@@ -524,6 +524,10 @@ header .mobile-menu {
     padding: 230px 0 120px;
 }
 
+#clinic-section.padding-sm {
+    padding: 70px 0 259px;
+}
+
 #clinic-section .left-area {
     padding-right: 38px;
 }
@@ -1225,6 +1229,7 @@ footer .footer-bottom p a {
     padding-top: 102px;
 }
 
+
 /* Team Section  */
 #team-section {
     background: #F6F5F6;
@@ -1256,8 +1261,49 @@ footer .footer-bottom p a {
 
 
 
-/* Page Header Secondary  */
+/* Team Section primary */
+#team-section-primary {
+    padding: 170px 0 180px;
+    border-bottom: 1px solid #E0E0E0;
+}
 
+#team-section-primary.section-header-primary {
+    max-width: 599px;
+    width: 100%;
+}
+
+#team-section-primary .team-item {
+    width: 25%;
+    padding:25px;
+    transition: 3s;
+}
+
+#team-section-primary .inner-box {
+    background: #FFFFFF;
+    box-shadow: 0px 3.12329px 15.6164px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 98.1835px;
+    text-align: center;
+}
+
+#team-section-primary .image-box img{
+    border-radius: 0px 98.1835px 0px 0px;
+}
+
+#team-section-primary .text-box {
+    border-radius: 0px 0px 0px 98.1835px;
+    padding: 30px 15px;
+    transition: .3s;
+}
+
+#team-section-primary .inner-box:hover .text-box {
+    background: #65A08C;;
+    color: #fff;
+}
+
+
+
+
+/* Page Header Secondary  */
 #page-header-scondary {
     padding: 106px 0 125px;
     background: #ECF4F2;
