@@ -1482,6 +1482,7 @@ footer .footer-bottom p a {
 /* Blog Section */
 #blog-section {
     padding: 131px 0 176px;
+    border-bottom:  1px solid #E0E0E0;
 }
 
 #blog-section hr {
