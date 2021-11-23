@@ -524,6 +524,10 @@ header .mobile-menu {
     padding: 230px 0 120px;
 }
 
+#clinic-section.padding-sm {
+    padding: 70px 0 259px;
+}
+
 #clinic-section .left-area {
     padding-right: 38px;
 }
@@ -1225,6 +1229,7 @@ footer .footer-bottom p a {
     padding-top: 102px;
 }
 
+
 /* Team Section  */
 #team-section {
     background: #F6F5F6;
@@ -1256,10 +1261,49 @@ footer .footer-bottom p a {
 
 
 
-/* Page Header Secondary  */
+/* Team Section primary */
+#team-section-primary {
+    padding: 170px 0 180px;
+    border-bottom: 1px solid #E0E0E0;
+}
 
+#team-section-primary.section-header-primary {
+    max-width: 599px;
+    width: 100%;
+}
+
+#team-section-primary .team-item {
+    width: 25%;
+    padding:25px;
+    transition: 3s;
+}
+
+#team-section-primary .inner-box {
+    background: #FFFFFF;
+    box-shadow: 0px 3.12329px 15.6164px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 98.1835px;
+    text-align: center;
+}
+
+#team-section-primary .image-box img{
+    border-radius: 0px 98.1835px 0px 0px;
+}
+
+#team-section-primary .text-box {
+    border-radius: 0px 0px 0px 98.1835px;
+    padding: 30px 15px;
+    transition: .3s;
+}
+
+#team-section-primary .inner-box:hover .text-box {
+    background: #65A08C;;
+    color: #fff;
+}
+
+
+/* Page Header Secondary  */
 #page-header-scondary {
-    padding: 106px 0 125px;
+    padding: 106px 0 136px;
     background: #ECF4F2;
     border-radius: 0px 0px 0px 150px;
 }
@@ -1270,9 +1314,41 @@ footer .footer-bottom p a {
     color: #65A08C;
 }
 
+#page-header-scondary .title-box h1 {
+    margin-bottom: 0;
+}
+
+#page-header-scondary .search-box {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 15px;
+}
+
+#page-header-scondary .search-box input {
+    min-height: 78px;
+    padding: 15px 38px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 75px;
+    color: #000000;
+}
+
+#page-header-scondary .search-box button{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 78px;
+    width: 78px;
+}
+
 
 /* Table Primary Section */
-
 #table-primary-section {
     padding: 152px 0 100px;
 }
@@ -1332,3 +1408,222 @@ footer .footer-bottom p a {
     margin-bottom: 50px;
 }
 
+
+/* About Section */
+#about-section {
+    padding: 149px 0 0;
+    background: #F7F5F6;
+}
+
+#about-section .about-box {
+    margin-bottom: 44px;
+}
+
+#about-section .left-area {
+    padding-right: 15px;
+}
+
+#about-section .right-area {
+    padding-left: 15px;
+}
+
+#about-section .about-item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+}
+
+#about-section .image-box img {
+    border-radius: 50px 50px 0 0;
+}
+
+#about-section .text-box {
+    padding: 60px 50px;
+}
+
+#about-section .text-box {
+    padding: 60px 50px;
+}
+
+#about-section .text-box h2 {
+    line-height: 45px;
+    margin-bottom: 22px;
+}
+
+#about-section .text-box p {
+    margin-bottom: 39px;
+}
+
+#about-section .text-box a {
+    text-decoration: none;
+    color: #65A08C;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* Achievements Section */
+#achievements-section {
+    padding: 150px 0 187px;
+}
+
+#achievements-section .achievements-item {
+    width: 20%;
+    padding: 0 20px;
+}
+
+#achievements-section .inner-box {
+    background: #FFFFFF;
+    box-shadow: 0px 3.12329px 15.6164px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 78.0822px;
+    padding: 60px 0 49px;
+    border: 0.780822px solid transparent;
+    transition: .3s;
+}
+
+#achievements-section .inner-box:hover {
+    border: 0.780822px solid #65A08C;
+}
+
+#achievements-section .inner-box span {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 45px;
+    color: #65A08C;
+}
+
+#achievements-section .inner-box p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    margin: 11px 0 11px;
+}
+
+/* Blog Section */
+#blog-section {
+    padding: 131px 0 176px;
+}
+
+#blog-section hr {
+    margin: 30px 0 45px;
+}
+
+#blog-section article.featured {
+    position: relative;
+    min-height: 497px;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    margin: 0;
+}
+
+#blog-section article.featured::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    z-index: -1;
+}
+
+#blog-section article .content-box span {
+    color: #C4C4C4;
+}
+
+
+#blog-section article.featured .content-box {
+    padding: 0 45px 30px;
+}
+
+#blog-section article.featured span {
+    font-size: 17px;
+    line-height: 30px;
+    color: #fff;
+}
+
+#blog-section article.featured span img {
+    width: 16px;
+    height: 16px;
+}
+
+#blog-section article.featured p {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 8px;
+    color: #fff;
+}
+
+#blog-section article p {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 8px;
+}
+
+#blog-section article span img {
+    width: 16px;
+    height: 16px;
+}
+
+#blog-section article span {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+#blog-section article .image-box {
+    width: 263px;
+}
+
+#blog-section article .content-box {
+    padding-left: 43px;
+}
+
+#blog-section article {
+    margin-bottom: 17px;
+}
+
+
+#blog-section .offer-item {
+    width: 50%;
+    padding: 20px;
+}
+
+#blog-section .inner-box {
+    background: #FFFFFF;
+    box-shadow: 0px 3.12329px 15.6164px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 78.0822px;
+    padding: 25px 10px;
+    border: 0.780822px solid transparent;
+    transition: .3s;
+}
+
+#blog-section .inner-box:hover {
+    border: 0.780822px solid #65A08C;
+}
+
+#blog-section .inner-box img {
+  margin-bottom: 5px;
+}
+
+#blog-section .inner-box p {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+#blog-section .heighlight-box {
+    background: #ECF4F2;
+    padding: 80px 81px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#blog-section .heighlight-box img {
+    margin-bottom: 33px;
+}
+
+#blog-section .heighlight-box img {
+    margin-bottom: 24px;
+}
