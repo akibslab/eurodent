@@ -3,6 +3,16 @@
 
     jQuery(document).ready(function($){
 
+
+        $('.collapse').on('shown.bs.collapse', function()
+		{
+			$(this).prev().addClass('active');
+		});
+		$('.collapse').on('hidden.bs.collapse', function()
+		{
+			$(this).prev().removeClass('active');
+		});
+
 		// Add an Class to the <li> if has Submenu
     	$('header .menu ul li:has(ul)').addClass('has-submenu');
 
@@ -49,6 +59,13 @@
         if($("#testimonial-section-two").length > 0) {
 	        $('#testimonial-section-two .testimonials-box').masonry({
 	            itemSelector: '#testimonial-section-two .testimonial-item',
+	        });
+	    }
+
+        // Testimonial Section three Masonry
+        if($("#testimonial-section-three").length > 0) {
+	        $('#testimonial-section-three .testimonials-box').masonry({
+	            itemSelector: '#testimonial-section-three .testimonial-item',
 	        });
 	    }
 

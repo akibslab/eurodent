@@ -728,6 +728,27 @@ footer .footer-bottom p a {
 }
 
 
+/* Testimonial Section Three */
+#testimonial-section-three {
+    padding: 70px 0 132px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#testimonial-section-three .testimonial-item {
+    width: 50%;
+    padding: 0 30px;
+    margin-bottom: 38px;
+}
+
+#testimonial-section-three .button-box {
+    padding-top: 48px;
+}
+
+#testimonial-section-three .video-box {
+    margin-bottom: 22px;
+}
+
+
 /* CTA Section Primary */
 #cta-section-primary {
     padding: 173px 0 189px;
@@ -758,6 +779,10 @@ footer .footer-bottom p a {
 /* CTA Section Secondary */
 #cta-section-secondary {
     padding: 162px 0 162px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
 }
 
 #cta-section-secondary h1{
@@ -766,6 +791,17 @@ footer .footer-bottom p a {
 
 #cta-section-secondary .button-primary {
     background: #ED99B5;
+}
+
+#cta-section-secondary::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(37, 44, 41, 0.8), rgba(37, 44, 41, 0.8)), url(.jpg);
+
 }
 
 
@@ -922,6 +958,42 @@ footer .footer-bottom p a {
     text-align: right;
 }
 
+#page-details-section .details-item h5 {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+#page-details-section .details-item .card {
+    border: none;
+}
+
+#page-details-section .details-item .card-header {
+    background: #fff;
+    border-bottom: 1px solid #E0E0E0;
+    position: relative;
+    cursor: pointer;
+}
+
+#page-details-section .details-item .card-header i {
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    margin-top: -14px;
+    transition: 0.3s;
+    color: #C4C4C4;
+}
+
+#page-details-section .details-item .card-header.active i {
+    transform: rotate(-180deg);
+}
+
+#page-details-section .details-item .card-body {
+    line-height: 35px;
+}
+
+
 /* Our Clinic Section */
 #our-clinic-section {
     padding: 154px 0 187px;
@@ -1016,11 +1088,12 @@ footer .footer-bottom p a {
 
 /* Compare Section */
 #compare-section {
-    background: #F7F5F6;
+    padding-bottom: 129px;
 }
 
 #compare-section .inner-compare-section {
-    padding: 149px 0 129px;
+    background: #F7F5F6;
+    padding-top: 149px;
 }
 
 #compare-section .compares-box {
@@ -1070,6 +1143,10 @@ footer .footer-bottom p a {
 }
 
 #compare-section .table-box {
+    background: #fff;
+}
+
+#compare-section .table-responsive {
     margin-top: 44px;
 }
 
@@ -1121,8 +1198,118 @@ footer .footer-bottom p a {
     color: #ED99B5;
 }
 
-#compare-section .inactive i {
+#compare-section tr td.inactive i {
     color: #D7D7D7;
 }
 
+#compare-section .button-box {
+    padding-top: 102px;
+}
+
+/* Team Section  */
+#team-section {
+    background: #F6F5F6;
+    padding: 178px 0 240px;
+}
+
+#team-section .section-header-primary {
+    max-width: 599px;
+    width: 100%;
+}
+
+#team-section .team-item {
+    width: 20%;
+    padding: 0 20px;
+}
+
+#team-section .inner-box {
+    background: #FFFFFF;
+    box-shadow: 0px 3.12329px 15.6164px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 78.0822px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#team-section  img{
+    border-radius: 0px 78.0822px 0 0;
+    margin-bottom: 30px;
+}
+
+
+
+/* Page Header Secondary  */
+
+#page-header-scondary {
+    padding: 106px 0 125px;
+    background: #ECF4F2;
+    border-radius: 0px 0px 0px 150px;
+}
+
+#page-header-scondary h4 {
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: #65A08C;
+}
+
+
+/* Table Primary Section */
+
+#table-primary-section {
+    padding: 152px 0 100px;
+}
+
+#table-primary-section .table-responsive tr th {
+    padding: 16px 0;
+    border-top: 1px solid #65A08C;
+    border-bottom: 1px solid #65A08C;
+    font-weight: 600;
+    line-height: 35px;
+    color: #65A08C;
+}
+
+#table-primary-section .table-responsive tr th:nth-child(1) {
+    width: calc(100% - 220px);
+}
+
+#table-primary-section .table-responsive tr th:nth-child(2) {
+    width: 130px;
+    text-align: center;
+}
+
+#table-primary-section .table-responsive tr th:nth-child(3) {
+    width: 90px;
+    text-align: center;
+}
+
+#table-primary-section .table-responsive tr td {
+    padding: 0;
+    border-top: none;
+    border-bottom: 1px solid #DADADA;
+    font-size: 25px;
+    line-height: 90px;
+}
+
+#table-primary-section .table-responsive tr td:nth-child(1) {
+    width: calc(100% - 220px);
+}
+
+#table-primary-section .table-responsive tr td:nth-child(2) {
+    width: 130px;
+    text-align: center;
+}
+
+#table-primary-section .table-responsive tr td:nth-child(3) {
+    width: 90px;
+    text-align: center;
+}
+
+#table-primary-section h3 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 90px;
+}
+
+#table-primary-section  .table-margin {
+    margin-bottom: 50px;
+}
 
