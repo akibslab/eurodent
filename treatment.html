@@ -41,7 +41,7 @@
                         </div>
 
                         <nav class="menu">
-                            <ul>
+                            <ul id="main-menu">
                                 <li><a href="#">Treatments</a>
                                     <ul>
                                         <li><a href="#">All on 4</a></li>
@@ -61,17 +61,19 @@
                         <div class="button-box">
                             <a class="btn button-secondary sm" href="tel:06704200602">
                                 <img class="icon-left" src="assets/img/icons/1.png" alt="">
-                                06 70 420 06 02
+                                <span class="text">06 70 420 06 02</span>
                             </a>
                             <a class="btn button-primary sm" href="#">
                                 <img class="icon-left" src="assets/img/icons/2.png" alt="">
-                                Message us
+                                <span class="text">Message us</span>
                             </a>
                             <a class="btn button-primary sm" href="#">
                                 <img class="icon-left" src="assets/img/icons/3.png" alt="">
-                                Book appointment
+                                <span class="text">Book appointment</span>
                             </a>
                         </div>
+
+                        <div class="mobile-menu"></div>
                     </div>
                 </div>
             </div>
@@ -102,21 +104,24 @@
         <section id="page-details-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 d-flex flex-wrap">
+                    <div class="col-md-4 col-lg-3">
                         <div class="details-list-box">
                             <ul>
-                                <li><a class="active" href="#">Overview</a></li>
-                                <li><a href="#">Costs</a></li>
-                                <li><a href="#">It is right for me?</a></li>
-                                <li><a href="#">Procedure</a></li>
-                                <li><a href="#">Success Stories</a></li>
-                                <li><a href="#">Treatment on NHS</a></li>
-                                <li><a href="#">Alternatives</a></li>
+                                <li><a href="#overview" class="smooth-scroll active">Overview</a></li>
+                                <li><a href="#costs" class="smooth-scroll">Costs</a></li>
+                                <li><a href="#it-is-right-for-me" class="smooth-scroll">It is right for me?</a></li>
+                                <li><a href="#" class="smooth-scroll">Procedure</a></li>
+                                <li><a href="#" class="smooth-scroll">Success Stories</a></li>
+                                <li><a href="#" class="smooth-scroll">Treatment on NHS</a></li>
+                                <li><a href="#" class="smooth-scroll">Alternatives</a></li>
                             </ul>
                             <a class="btn button-primary" href="#">MAKE APPOINTMENT</a>
                         </div>
+                    </div>
+
+                    <div class="col-md-8 col-lg-9">
                         <div class="details-item-box">
-                            <div class="details-item">
+                            <div class="details-item" id="overview">
                                 <h2>What is Full mouth implant?</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed condimentum quam. Duis vel libero quis sapien elementum aliquet at at mauris. Sed in risus ac enim aliquam semper. Nulla quis erat suscipit, consequat est sed, luctus massa. Quisque ultrices urna eget libero maximus facilisis quis nec sem. In sodales id dolor sed sagittis. Duis vestibulum magna a dolor luctus pretium. <br> <br>
                                     Sed sed dui nec tortor luctus lacinia. Quisque vitae vehicula augue, sed porta nulla. Nulla turpis augue, convallis et ipsum nec, ultrices tristique sapien. Maecenas nulla arcu, luctus ut risus sit amet, scelerisque semper ipsum. Phasellus accumsan quam quis convallis blandit. <br> <br>
@@ -124,7 +129,7 @@
                                     Proin maximus convallis egestas. Nulla nulla ligula, convallis ut consequat id, ornare ut enim. Integer lobortis eget nisl a rutrum. Ut pretium dignissim neque sit amet aliquam.
                                 </p>
                             </div>
-                            <div class="details-item">
+                            <div class="details-item" id="costs">
                                 <h2>How much does this treatment cost?</h2>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed condimentum quam. Duis vel libero quis sapien elementum aliquet at at mauris. Sed in risus ac enim aliquam semper. Nulla quis erat suscipit, consequat est sed, luctus massa. Quisque ultrices urna eget libero maximus facilisis quis nec sem. In sodales id dolor sed sagittis. Duis vestibulum magna a dolor luctus pretium.
@@ -164,7 +169,7 @@
                                     </table>
                                   </div>
                             </div>
-                            <div class="details-item">
+                            <div class="details-item" id="it-is-right-for-me">
                                 <h2>How do I know if this treatment is right for me?</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed condimentum quam. Duis vel libero quis sapien elementum aliquet at at mauris. Sed in risus ac enim aliquam semper. Nulla quis erat suscipit, consequat est sed, luctus massa. Quisque ultrices urna eget libero maximus facilisis quis nec sem. In sodales id dolor sed sagittis. Duis vestibulum magna a dolor luctus pretium. <br> <br>
                                     Sed sed dui nec tortor luctus lacinia. Quisque vitae vehicula augue, sed porta nulla. Nulla turpis augue, convallis et ipsum nec, ultrices tristique sapien. Maecenas nulla arcu, luctus ut risus sit amet, scelerisque semper ipsum. Phasellus accumsan quam quis convallis blandit
@@ -386,14 +391,14 @@
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-xl-5">
                             <div class="logo">
                                 <img src="assets/img/footer/logo.png" alt="">
                             </div>
                             <p>Pellentesque vitae cursus augue, quis posuere eros. Curabitur vitae ex ac lacus feugiat faucibus eu eget velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque cursus vestibulum laoreet. Etiam eget odio volutpat, facilisis leo ut, placerat nisi. Suspendisse euismod eu tellus nec convallis.</p>
                                 <img src="assets/img/footer/1.png" alt="">
                         </div>
-                        <div class="col-md-6 offset-md-1 d-flex flex-wrap justify-content-between">
+                        <div class="col-xl-6 offset-xl-1 offset-lg-0 d-flex flex-wrap justify-content-between">
                             <div class="footer-item">
                                 <h3>EURODENT</h3>
                                 <ul>
