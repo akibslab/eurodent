@@ -1579,6 +1579,7 @@ footer .footer-bottom p a {
     padding: 25px 10px;
     border: 0.780822px solid transparent;
     transition: .3s;
+    text-align: center;
 }
 
 #blog-section .inner-box:hover {
