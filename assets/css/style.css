@@ -209,6 +209,9 @@ h4 {
     background: #65A08C;
 }
 
+.bg-pink {
+    background: #ED99B5;
+}
 
 /* Header Area */
 header {
@@ -1060,6 +1063,11 @@ footer .footer-bottom p a {
 #hero-section-2 {
     padding: 0 0 165px;
 }
+
+#hero-section-2.form-padding {
+    padding: 0 0 236px;
+}
+
 #hero-section-2 .hero-section-two-inner{
     background: #ECF4F2;
     border-radius: 0px 0px 0px 150px;
@@ -1068,6 +1076,10 @@ footer .footer-bottom p a {
 
 #hero-section-2 .hero-text {
     padding-top: 191px;
+}
+
+#hero-section-2.form-padding .hero-text {
+    padding: 70px 75px  0;
 }
 
 #hero-section-2 .hero-text h4 {
@@ -1087,6 +1099,67 @@ footer .footer-bottom p a {
 #hero-section-2 .hero-two-image {
     border-radius: 0px 150px;
     margin-bottom: -90px;
+}
+
+#hero-section-2 .form-box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 150px;
+    padding: 75px 63px;
+}
+
+#hero-section-2 .form-box {
+    margin-bottom: -236px;
+}
+
+#hero-section-2 .form-box input {
+    min-height: 78px;
+    padding: 15px 38px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 75px;
+    color: #000000;
+}
+
+#hero-section-2 .form-box input::-webkit-input-placeholder, #hero-section-2 .form-box textarea {
+    color: #000;
+  }
+  
+  #hero-section-2 .form-box input:-ms-input-placeholder, #hero-section-2 .form-box textarea {
+    color: #000;
+  }
+  
+  #hero-section-2 .form-box input::placeholder, #hero-section-2 .form-box textarea {
+    color: #000;
+  }
+
+#hero-section-2 .form-box textarea {
+    min-height: 268px;
+    padding: 15px 38px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 17px;
+    line-height: 75px;
+    color: #000000;
+    resize: none;
+}
+
+#hero-section-2 .form-group {
+    margin-bottom: 35px;
+    position: relative;
+}
+
+#hero-section-2 .form-group img {
+    position: absolute;
+    width: 34px;
+    height: 37px;
+    top: 20px;
+    right: 21px;
 }
 
 
@@ -1610,3 +1683,219 @@ footer .footer-bottom p a {
 #blog-section .heighlight-box img {
     margin-bottom: 24px;
 }
+
+/* Single Post Section */
+#single-post-section .single-post-header-inner {
+    background: #ECF4F2;
+    border-radius: 0px 0px 0px 150px;
+    padding-top: 106px;
+}
+
+#single-post-section .single-post-header-inner a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: #65A08C;
+    margin-bottom: 14px;
+}
+
+#single-post-section .single-post-header-inner h1 {
+    margin-bottom: 35px;
+}
+
+#single-post-section .single-post-header .single-post-image {
+    margin-bottom: -240px;
+}
+
+#single-post-section .single-post-header {
+    padding-bottom: 316px;
+}
+
+#single-post-section .summary-box p {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 55px;
+    margin-bottom: 38px;
+}
+
+#single-post-section .social-icon-box {
+    width: 137px;
+    padding-right: 46px;
+}
+
+#single-post-section .social-icon-box ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#single-post-section .social-icon-box ul li{
+    margin-bottom: 50px;
+}
+
+#single-post-section .social-icon-box ul li:last-child{
+    margin-bottom: 0;
+}
+
+#single-post-section .social-icon-box ul li a{
+    text-decoration: none;
+    width: 90px;
+    height: 90px;
+    background: #65A08C;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+#single-post-section .social-icon-box ul li a i{
+    color: #fff;
+    font-size: 50px;
+    line-height: 90px;
+}
+
+
+#single-post-section .content-box {
+    width: calc(100% - 183px);
+}
+
+
+/* Related articles */
+#related-articles-section {
+    padding: 137px 0 180px;
+    border-bottom:  1px solid #E0E0E0;
+}
+
+#related-articles-section article.featured {
+    position: relative;
+    min-height: 497px;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    margin: 0;
+}
+
+#related-articles-section article.featured::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    z-index: -1;
+}
+
+#related-articles-section article .content-box span {
+    color: #C4C4C4;
+}
+
+#related-articles-section article.featured .content-box {
+    padding: 0 45px 30px;
+}
+
+#related-articles-section article.featured span {
+    font-size: 17px;
+    line-height: 30px;
+    color: #fff;
+}
+
+#related-articles-section article.featured span img {
+    width: 16px;
+    height: 16px;
+}
+
+#related-articles-section article.featured p {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 8px;
+    color: #fff;
+}
+
+#related-articles-section article p {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 8px;
+}
+
+#related-articles-section article span img {
+    width: 16px;
+    height: 16px;
+}
+
+#related-articles-section article span {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+#related-articles-section article .image-box {
+    width: 263px;
+}
+
+#related-articles-section article .content-box {
+    padding-left: 43px;
+}
+
+#related-articles-section article {
+    margin-bottom: 17px;
+}
+
+#related-articles-section .left-area {
+    width: 505px;
+    padding-right: 29px;
+}
+
+#related-articles-section .right-area {
+    width: calc(100% - 534px);
+}
+
+#related-articles-section hr {
+    margin: 30px 0 45px;
+}
+
+
+/* Location Section */
+#location-section {
+    padding-bottom: 192px;
+}
+
+#location-section .info-box {
+    max-width: 613px;
+    width: 100%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 150px;
+    padding: 60px 72px;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+}
+
+#location-section .info-box h4 {
+    color: #fff;
+}
+
+#location-section .info-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#location-section .info-box ul li {
+    line-height: 40px;
+}
+
+#location-section .info-box a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#location-section .image-box {
+    position: relative;
+    z-index: -1;
+    margin-top: 260px;
+}
+
+
